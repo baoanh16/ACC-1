@@ -1,0 +1,80 @@
+body, html
+	font-family: 'Encode Sans', sans-serif
+	font-weight: normal
+	font-style: normal
+	font-size: 16px
+	line-height: 1.3
+	color: #333333
+button , input
+	&:focus
+		outline: none
+p ,ul ,h1,h2,h3,h4,h5,h6,figure,div, *
+	margin: 0
+	padding: 0
+	font-weight: 300
+	vertical-align: baseline
+*
+	box-sizing: border-box
+	&:focus
+		outline: none
+a
+	font-size: inherit
+	color: inherit
+	text-decoration: none
+	&:hover
+		color: inherit
+ul
+	list-style-type: none
+	margin-bottom: 0
+	padding-left: 0
+.edit-link
+	i
+		font-family: "Font Awesome 5 Free" !important
+		&:before
+			content: '\f044' !important
+section
+	overflow: hidden
+
+.newspager
+	margin-bottom: 80px
+	.pagination
+		display: flex
+		justify-content: center
+		li
+			.SelectedPage,.ModulePager
+				display: flex
+				width: 30px
+				height: 30px
+				justify-content: center
+				align-items: center
+				color: #999999
+				font-weight: 500
+				margin-right: 8px
+				text-decoration: none
+			&.active,&:hover
+				.SelectedPage
+					border: 1px solid #c52826
+					color: #c52826
+.acc-innovation
+	padding: 40px 0
+	h2
+		text-align: center
+		margin-top: 15px
+	img
+		max-width: 100%
+		height: auto
+	.swiper-slide
+		text-align: center
+	.thumbnail
+		margin-top: 40px
+		h2
+			display: none
+		img
+			height: 150px
+			object-fit: cover
+.Module-202
+	height: 100%
+	.ModuleContent
+		height: 100%
+.newspager
+	display: none
